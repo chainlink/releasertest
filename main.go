@@ -1,6 +1,12 @@
 // main.go
 package main
 
+import "fmt"
+
+var (
+	Version string
+)
+
 func main() {
-	println("Ba dum, tss!")
+	fmt.Println("Version: ", Version)
 }
